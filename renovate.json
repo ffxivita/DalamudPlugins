@@ -4,8 +4,8 @@
     "packageRules": [
         {
             "matchPackagePatterns": ["*"],
-            "reviewers": ["HsinVega842", "DarkArtek"],
-            "assignees": ["HsinVega842", "DarkArtek"]
+            "reviewers": ["HsinVega842", "DarkArtek","hikuch"],
+            "assignees": ["HsinVega842", "DarkArtek","hikuch"]
         }
     ]
 }
