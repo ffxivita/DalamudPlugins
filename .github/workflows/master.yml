@@ -1,0 +1,24 @@
+name: Rigenera Master
+on:
+  push:
+    branches:
+      - main
+    path:
+      - plugins/**
+
+jobs:
+  generate:
+    name: Rigenera Plugin Master
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - uses: actions/checkout@v2
+      - name: Genera PluginMaster
+        run: python generate_master.py
+      - uses: EndBug/add-and-commit@v7
+        with:
+          author_name: Priscilla
+          author_email: noreply@ahd-creative.agency
+          message: Rigenera PluginMaster
