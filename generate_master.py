@@ -61,28 +61,28 @@ def extract_manifests():
         latest_zip = f'{dirpath}/latest.zip'
         with ZipFile(latest_zip) as z:
             manifest = json.loads(z.read(f'{plugin_name}.json').decode('utf-8'))
-            manifest.append(manifests)
+            manifests.append(manifest)
     return manifests
 
 
 def add_extra_fields(manifests):
     for manifest in manifests:
-        # genera url di download da AssemblyName
-        manifest['DownloadLinkInstall'] = REPO_URL.format(plugin_name=manifest["InternalName"])
-        # aggiungi variabili di default se mancanti
+        # genera il link di download dalla variabile AssemblyName
+        manifest['DownloadLinkInstall'] = REPO_URL.format(plugin_name=manifest['InternalName'])
+        # aggiungi le variabili di default se non presenti
         for k, v in DEFAULTS.items():
-            if k not in manifest:
-                manifest[k] = v
-            # duplica le chiavi, come specificato in DUPLICATES
-            for source, keys in DUPLICATES.items():
-                for k in keys:
-                    if k not in manifest:
-                        manifest[k] = manifest[source]
-            manifest['DownloadCount'] = 0
+            manifest[k] = v
+
+        # duplica le chiavi come specificato in DUPLICATES
+        for source, keys in DUPLICATES.items():
+            for k in manifest:
+                if k not in manifest:
+                    manifest[k] = manifest[source]
+        manifest['DownloadCount'] = 0
 
 
 def write_master(master):
-    # Scrivi un bel file Json formattato
+    # scrivi un bel file json e formattalo
     with open('pluginmaster.json', 'w') as f:
         json.dump(master, f, indent=4)
 
@@ -100,6 +100,5 @@ def last_updated(master):
             plugin['LastUpdated'] = str(modified)
 
 
-# Init
 if __name__ == '__main__':
     main()
