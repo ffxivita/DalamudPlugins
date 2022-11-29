@@ -1,0 +1,11 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": ["github>ahdcreative/renovate-config"],
+    "packageRules": [
+        {
+            "matchPackagePatterns": ["*"],
+            "reviewers": ["HsinVega842", "DarkArtek"],
+            "assignees": ["HsinVega842", "DarkArtek"]
+        }
+    ]
+}
