@@ -32,6 +32,7 @@ TRIMMED_KEYS = [
     'IsTestingExclusive',
     'IconUrl',
     'ImageUrls'
+    'Punchline'
 ]
 
 
