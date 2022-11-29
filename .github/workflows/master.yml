@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Genera PluginMaster
         run: python generate_master.py
-      - uses: EndBug/add-and-commit@v7
+      - uses: EndBug/add-and-commit@v9
         with:
           author_name: Priscilla
           author_email: noreply@ahd-creative.agency
