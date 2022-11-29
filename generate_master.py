@@ -1,11 +1,9 @@
 import json
 import os
-from time import time
-from sys import argv
 from os.path import getmtime
-from zipfile import ZipFile, ZIP_DEFLATED
+from zipfile import ZipFile
 
-REPO_URL = 'https//ffxivita.github.io/DalamudPlugins/raw/main/plugins/{plugin_name}/latest.zip'
+REPO_URL = 'https//ffxivita.github.io/DalamudPlugins/plugins/{plugin_name}/latest.zip'
 
 DEFAULTS = {
     'IsHide': False,
