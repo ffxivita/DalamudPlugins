@@ -8,7 +8,8 @@ REPO_URL = 'https//ffxivita.github.io/DalamudPlugins/plugins/{plugin_name}/lates
 DEFAULTS = {
     'IsHide': False,
     'IsTestingExclusive': False,
-    'ApplicableVersion': 'any'
+    'ApplicableVersion': 'any',
+    'IconUrl': 'https://avatars.githubusercontent.com/u/62541782?s=200&v=4'
 }
 
 DUPLICATES = {
