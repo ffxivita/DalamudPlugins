@@ -1,1 +1,23 @@
-[]
+[
+    {
+        "Author": "FFXIVITA",
+        "Name": "XIVITA Guide",
+        "Description": "Plugin che permette ai giocatori di accedere facilmente a delle guide scritte per i vari content come Dungeon, Trials and Alliance Raids. Punti Chiave: 1) Apre la guida (se presente) in maniera automatica quando si entra in duty 2) Interfaccia scalabile e adattabile a tutti gli schermi 3) una modalit\u00e0 di guida testuale breve per chi \u00e8 di fretta 4) Protezione Anti-Spoiler 5) Editor guide integrato 6) Integrazioni coi vostri plugin preferiti e molto altro!",
+        "InternalName": "XIVITAGuide",
+        "AssemblyVersion": "1.5.0.21",
+        "RepoUrl": "https://github.com/ffxivita/XIVITAGuide",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "Duty Finder",
+            "Duties",
+            "Guide",
+            "XIVITA"
+        ],
+        "DalamudApiLevel": 7,
+        "DownloadLinkInstall": "https//ffxivita.github.io/DalamudPlugins/plugins/XIVITAGuide/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadCount": 0,
+        "LastUpdated": "1669707043"
+    }
+]
