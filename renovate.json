@@ -1,11 +1,4 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": ["github>ahdcreative/renovate-config"],
-    "packageRules": [
-        {
-            "matchPackagePatterns": ["*"],
-            "reviewers": ["HsinVega842", "DarkArtek","hikuch"],
-            "assignees": ["HsinVega842", "DarkArtek","hikuch"]
-        }
-    ]
+    "extends": ["github>ffxivita/.github"]
 }
