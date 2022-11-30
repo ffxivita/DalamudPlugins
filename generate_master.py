@@ -3,7 +3,7 @@ import os
 from os.path import getmtime
 from zipfile import ZipFile
 
-REPO_URL = 'https://ffxivita.github.io/DalamudPlugins/plugins/{plugin_name}/latest.zip'
+REPO_URL = 'https://docs.ffxivita.it/DalamudPlugins/plugins/{plugin_name}/latest.zip'
 
 DEFAULTS = {
     'IsHide': False,
