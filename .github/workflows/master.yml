@@ -11,13 +11,13 @@ jobs:
     name: Rigenera Plugin Master
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@13ae5bb136fac2878aff31522b9efb785519f984 # v4
         with:
           python-version: '3.8'
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v3
       - name: Genera PluginMaster
         run: python generate_master.py
-      - uses: EndBug/add-and-commit@v9
+      - uses: EndBug/add-and-commit@61a88be553afe4206585b31aa72387c64295d08b # v9
         with:
           author_name: Priscilla
           author_email: noreply@ahd-creative.agency
