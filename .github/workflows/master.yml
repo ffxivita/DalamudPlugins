@@ -5,6 +5,7 @@ on:
       - main
     paths:
       - plugins/**
+  workflow_dispatch:
 
 jobs:
   generate:
