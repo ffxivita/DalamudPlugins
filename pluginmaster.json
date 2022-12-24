@@ -17,12 +17,12 @@
             "Widget"
         ],
         "DalamudApiLevel": 7,
-        "DownloadLinkInstall": "https://docs.ffxivita.it/DalamudPlugins/plugins/XIVITASanctuary/latest.zip",
+        "DownloadLinkInstall": "https://ffxivita.github.io/DalamudPlugins/plugins/XIVITASanctuary/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
         "IconUrl": "https://avatars.githubusercontent.com/u/62541782?s=200&v=4",
         "DownloadCount": 0,
-        "LastUpdated": "1669961691"
+        "LastUpdated": "1671892292"
     },
     {
         "Author": "FFXIVITA",
@@ -39,11 +39,11 @@
             "XIVITA"
         ],
         "DalamudApiLevel": 7,
-        "DownloadLinkInstall": "https://docs.ffxivita.it/DalamudPlugins/plugins/XIVITAGuide/latest.zip",
+        "DownloadLinkInstall": "https://ffxivita.github.io/DalamudPlugins/plugins/XIVITAGuide/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
         "IconUrl": "https://avatars.githubusercontent.com/u/62541782?s=200&v=4",
         "DownloadCount": 0,
-        "LastUpdated": "1669961691"
+        "LastUpdated": "1671892292"
     }
 ]
