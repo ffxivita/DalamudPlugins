@@ -1,6 +1,31 @@
 [
     {
         "Author": "FFXIVITA",
+        "Name": "XIVITASanctuary",
+        "Description": "Un plugin che migliora la vostra esperienza in  Island Sanctuary. Cosa Fa: 1) Vi segnala gli item da raccogliere nella mappa 2) todo-list per Gathering & crafting, mostrando quali di materiali avrete bisogno 3) (pianificato) Miglior vista dell'inventario. 4) Widget per accedere velocemente alle informazioni.",
+        "InternalName": "XIVITASanctuary",
+        "AssemblyVersion": "1.2.0.4",
+        "RepoUrl": "https://github.com/ffxivita/XIVITASanctuary",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "Guide",
+            "XIVITA",
+            "Island Sanctuary",
+            "Gathering",
+            "Crafting",
+            "Inventory",
+            "Widget"
+        ],
+        "DalamudApiLevel": 8,
+        "DownloadLinkInstall": "https://ffxivita.github.io/DalamudPlugins/plugins/XIVITASanctuary/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "IconUrl": "https://avatars.githubusercontent.com/u/62541782?s=200&v=4",
+        "DownloadCount": 0,
+        "LastUpdated": "1673850146"
+    },
+    {
+        "Author": "FFXIVITA",
         "Name": "XIVITA Guide",
         "Description": "Plugin che permette ai giocatori di accedere facilmente a delle guide scritte per i vari content come Dungeon, Trials and Alliance Raids. Punti Chiave: 1) Apre la guida (se presente) in maniera automatica quando si entra in duty 2) Interfaccia scalabile e adattabile a tutti gli schermi 3) una modalit\u00e0 di guida testuale breve per chi \u00e8 di fretta 4) Protezione Anti-Spoiler 5) Editor guide integrato 6) Integrazioni coi vostri plugin preferiti e molto altro!",
         "InternalName": "XIVITAGuide",
@@ -19,6 +44,6 @@
         "IsTestingExclusive": false,
         "IconUrl": "https://avatars.githubusercontent.com/u/62541782?s=200&v=4",
         "DownloadCount": 0,
-        "LastUpdated": "1673849970"
+        "LastUpdated": "1673850146"
     }
 ]
