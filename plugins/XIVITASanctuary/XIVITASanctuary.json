@@ -2,7 +2,7 @@
   "Author": "FFXIVITA",
   "Name": "XIVITASanctuary",
   "InternalName": "XIVITASanctuary",
-  "AssemblyVersion": "1.2.0.4",
+  "AssemblyVersion": "1.2.10.0",
   "Description": "Un plugin che migliora la vostra esperienza in  Island Sanctuary. Cosa Fa: 1) Vi segnala gli item da raccogliere nella mappa 2) todo-list per Gathering & crafting, mostrando quali di materiali avrete bisogno 3) (pianificato) Miglior vista dell'inventario. 4) Widget per accedere velocemente alle informazioni.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/ffxivita/XIVITASanctuary",
