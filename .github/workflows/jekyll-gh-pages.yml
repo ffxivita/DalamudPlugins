@@ -30,7 +30,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@c5a3e1159e0cbdf0845eb8811bd39e39fc3099c2 # v2
       - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@058068233b22675635bdf8dfa178d6ae77f12694 # v1
+        uses: actions/jekyll-build-pages@e4ef22193c23ea849fc3fea6dbce69da1ee65b6d # v1
         with:
           source: ./
           destination: ./_site
